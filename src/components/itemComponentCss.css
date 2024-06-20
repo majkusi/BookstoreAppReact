@@ -1,0 +1,45 @@
+.itemComponentStyle {
+    text-align: center;
+    /* color: Green; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+
+    min-width: 33rem;
+    text-align: left;
+    border: 1px solid green; /* Dodanie obramowania */
+    margin: 1rem; /* Dodanie odstępu między elementami */
+    padding: 1rem; /* Dodanie wewnętrznego odstępu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodanie cienia */
+    border-radius: 8px; /* Dodanie zaokrąglenia rogów */
+    background-color: black; /* Dodanie koloru tła */
+    cursor: pointer; /* Dodanie wskaźnika kursora */
+    display: flex; /* Dodanie wyświetlania jako flexbox */
+    flex-direction: column; /* Ustawienie kierunku flex na kolumnę */
+    align-items: flex-start; /* Wyrównanie elementów do początku */
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Dodanie efektu po najechaniu */
+}
+
+.item:focus {
+    outline: none; /* Usunięcie domyślnego obramowania przycisku po kliknięciu */
+}
+
+.item ol {
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Usunięcie stylu listy */
+}
+
+.geeks {
+    color: green;
+}

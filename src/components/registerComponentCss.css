@@ -1,0 +1,38 @@
+.register-form {
+    width: 300px; /* Adjust the form width as needed */
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: center; /* Center align the items vertically */
+    margin-bottom: 15px;
+}
+
+.form-label {
+    width: 100px; /* Fixed width for labels */
+    margin-right: 10px; /* Space between label and input */
+    text-align: right; /* Right align the text inside the label */
+}
+
+.form-input {
+    flex: 1; /* Make the input take the remaining space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make the button full width */
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
